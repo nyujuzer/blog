@@ -13,8 +13,8 @@ function Contact(){
                 email:email,
                 date: Date.now(),
             });
-            console.log("written to ", doc.id);
-          } catch (err) {
+            alert("Success!")
+        } catch (err) {
             console.log("error: ", err);
           }
       };
