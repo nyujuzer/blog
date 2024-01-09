@@ -28,8 +28,8 @@ import { Link } from "react-router-dom";
   },[])
 
   return (
-    <div className="container">
-      <div className="c-card card bg-sky-blue md-6">
+    <div className="container col">
+      <div className="c-card bg-sky-blue">
         <img
           src={process.env.PUBLIC_URL + "/realistic.jpg"}
           alt="Placeholder Image"
@@ -47,7 +47,7 @@ import { Link } from "react-router-dom";
           in my secret lab that will leave you in awe.
         </p>
       </div>
-      <div className="posts-carousel card bg-light-red  md-6">
+      <div className="posts-carousel c-card bg-light-red">
         <div className="post">
           <img src={process.env.PUBLIC_URL+"/duct.jpg"} className="img-fluid" alt="Post Image" />
           <h2>Quenching Curiosity: Unveiling the Enchanting World of Quantum Quokka Juice</h2>
@@ -57,7 +57,7 @@ import { Link } from "react-router-dom";
 Upon sipping, the taste is a cosmic dance on your taste buds – a refreshing amalgamation of sweet and tangy notes, leaving a subtle aftertaste that lingers like a quokka's mischievous grin. It's a sip into the unknown, promising a journey through flavors as unique and fanciful as the Quantum Maestro himself.          </p>
         </div>
       </div>
-      <div className="posts-carousel card bg-harvest-gold  md-6">
+      <div className="posts-carousel c-card bg-harvest-gold ">
         <div className="post">
         <h1>{posts.title}</h1>
           <h3>{posts.text}</h3>

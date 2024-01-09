@@ -166,7 +166,10 @@ input[type=text], input[type=password], input[type=email] {
 }
 
 
-
+.col{
+  display: flex;
+  flex-direction: column;
+}
 .container {
   display: flex;
 }

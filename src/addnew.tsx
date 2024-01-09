@@ -64,7 +64,7 @@ function AddNew() {
     <div className="center">
       <div className="App bg-onyx">
         <Modal isOpen={!isLoggedIn}>
-          <div>
+          <div className="bg-white">
             <form>
               <h1>Hello there</h1>
               <h3>You Should Log In :)</h3>
