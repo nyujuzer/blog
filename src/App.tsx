@@ -28,7 +28,7 @@ import { Link } from "react-router-dom";
   },[])
 
   return (
-    <div className="container col">
+    <div className="container">
       <div className="c-card bg-sky-blue">
         <img
           src={process.env.PUBLIC_URL + "/realistic.jpg"}
